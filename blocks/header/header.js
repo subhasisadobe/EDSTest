@@ -126,6 +126,9 @@ export default async function decorate(block) {
   });
 
   const navBrand = nav.querySelector('.nav-brand');
+  // navBrand.innerHTML = `<a class="logo" data-cmp-clickable="" href="/us/en.html">
+  //       <img src="/content/experience-fragments/wknd/language-masters/en/site/header/master/_jcr_content/root/container/container_1195249223/image.coreimg.svg/1594412560447/wknd-logo-dk.svg" loading="lazy" class="logo_image" itemprop="contentUrl" alt="WKND Logo">
+  //   </a>`;
   const brandLink = navBrand.querySelector('.button');
   if (brandLink) {
     brandLink.className = '';
